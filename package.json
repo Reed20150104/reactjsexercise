@@ -1,0 +1,51 @@
+{
+  "name": "reactjsexercise",
+  "version": "1.0.0",
+  "description": "this is my first reactjs with webpack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reed20150104/reactjsexercise.git"
+  },
+  "keywords": [
+    "reactjs",
+    "webpack",
+    "first"
+  ],
+  "author": "reed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reed20150104/reactjsexercise/issues"
+  },
+  "homepage": "https://github.com/Reed20150104/reactjsexercise#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier-eslint": "^9.0.0",
+    "react-hot-loader": "^4.12.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "dev": "node bin/dev-server",
+    "lint": "eslint --ext .js --ext .jsx src",
+    "lint-fix": "eslint --fix --ext .js --fix --ext .jsx src"
+  }
+}
